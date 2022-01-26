@@ -59,7 +59,7 @@ static char	*ft_allocate_num_d(unsigned int nbr, t_flag flags, char neg)
 	if (flags.prec > 0)
 		size += flags.prec;
 	if (neg || (!neg && (flags.spc || flags.plus)))
-			size++;
+		size++;
 	flags.f_width -= size;
 	if (flags.f_width > 0)
 		size += flags.f_width;

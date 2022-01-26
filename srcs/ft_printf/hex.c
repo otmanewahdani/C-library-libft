@@ -35,7 +35,8 @@ static char	extract_hex(unsigned char num, char conv)
 }
 
 // 'x' in function names stands for hexadecimal
-static char	*ft_fill_arr_x(unsigned long num, char *arr, char conv, t_flag flags)
+static char	*ft_fill_arr_x(unsigned long num,
+	char *arr, char conv, t_flag flags)
 {
 	int	i;
 
