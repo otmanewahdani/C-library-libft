@@ -26,5 +26,5 @@ make clean
 ```
 To link libft to your program, make sure you include <libft.h> in your program files and specify the directory containing libft.h, i.e: incs/. Use the following flags with your C compiler:
 ```
-your-compiler your-program-files -I/path/to/incs -L/path/to/libft.a -lft
+<your-compiler> <your-program-files> -I/path/to/incs -L/path/to/libft.a -lft
 ```
