@@ -6,7 +6,7 @@
 #    By: owahdani <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/13 13:39:42 by owahdani          #+#    #+#              #
-#    Updated: 2022/01/13 18:17:54 by owahdani         ###   ########.fr        #
+#    Updated: 2022/01/28 17:53:01 by owahdani         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -78,7 +78,8 @@ SUB_SRC :=	ft_atoi.c \
 		ft_strchr.c \
 		ft_strlcat.c \
 		ft_strncmp.c \
-		ft_substr.c	
+		ft_substr.c \
+		ft_strtoi.c
 SRC += $(addprefix strings/,$(SUB_SRC))
 
 SRC := $(addprefix $(SRC_BASE)/,$(SRC))
