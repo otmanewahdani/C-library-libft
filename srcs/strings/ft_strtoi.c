@@ -6,7 +6,7 @@
 /*   By: owahdani <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/28 17:46:17 by owahdani          #+#    #+#             */
-/*   Updated: 2022/01/28 17:54:58 by owahdani         ###   ########.fr       */
+/*   Updated: 2022/01/31 21:38:09 by owahdani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@
 int	ft_strtoi(const char *str, int *errnum)
 {
 	long	nbr;
-	int	s;
-	int	i;
+	int		s;
+	int		i;
 
 	*errnum = 1;
 	i = 0;

@@ -6,7 +6,7 @@
 #    By: owahdani <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/13 13:39:42 by owahdani          #+#    #+#              #
-#    Updated: 2022/01/28 17:53:01 by owahdani         ###   ########.fr        #
+#    Updated: 2022/01/31 21:37:03 by owahdani         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -91,14 +91,14 @@ NAME = libft.a
 
 all: $(NAME)
 
-$(NAME): $(OBJ)
+$(NAME): $(OBJ_DIRS) $(OBJ)
 	ar -rc $(NAME) $(OBJ)
 
-$(OBJ_BASE)/%.o: $(SRC_BASE)/%.c | $(OBJ_DIRS)
+$(OBJ_BASE)/%.o: $(SRC_BASE)/%.c
 	$(CC) $(CFLAGS) $< -o $@
 
 $(OBJ_DIRS):
-	mkdir -p $(OBJ_DIRS)
+	mkdir -p $@
 
 clean:
 	rm -fr $(OBJ_BASE)
