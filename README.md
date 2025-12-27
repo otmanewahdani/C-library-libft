@@ -1,6 +1,6 @@
 ﻿# Libft
 
-A static C library inspired by 1337 school (42 network) projects.  This library involves re-writing a set of c standard library functions and also creating some new other useful functions. This library is a stepping-stone to completing most projects in the 1337 curriculum, since only a handful of external functions are allowed (listed below).
+A static C library inspired by 42 school projects.  This library involves re-writing a set of c standard library functions and also creating some new other useful functions. This library is a stepping-stone to completing most projects in the 1337 curriculum, since only a handful of external functions are allowed (listed below).
 
 ## Highlights
 
